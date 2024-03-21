@@ -1,0 +1,162 @@
+.contenedor-principal{
+    background: #D9E1F2;
+    /*
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    */
+    vertical-align: top;
+    width: 100%;
+    /*height: 500px;*/
+    
+    /*
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    */
+    /*
+    padding-top: 40px;
+    padding-left: 40px;
+    padding: 10px 20px 10px 20px;
+    */
+
+}
+
+.contenedor-principal li{
+
+    
+    display: inline-block;
+    
+    /*
+    text-align: center;
+    width: 30%;
+    */
+    
+    vertical-align: top;
+    margin-top: 30px;
+    
+    /*padding: 30px 20px;*/
+    
+    /*
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    */
+    
+    
+}
+
+#btnCopiar{
+    display: none;
+    background: #D9E1F2;
+    text-align: center;
+    color: #131F39;
+
+    
+    position: absolute;
+    bottom: 15px;
+
+    
+}
+
+#item-logo{
+    width: 10%;
+    
+    padding-top: 2%;
+    padding-left: 1%;
+    
+}
+
+#item-texto{
+    width: 60%;
+    height: 600px;
+    position: relative;
+}
+
+#item-resultado{
+    background: white;
+    vertical-align: middle;
+    text-align: center;
+    width: 25%;
+    height: 600px;
+    /*padding-top: 20px;*/
+    border-radius: 30px;
+    position: relative;
+    
+}
+
+#imagen-muneco{
+    padding-top: 70px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#parrafoResultado{
+    text-align: center;
+    /*font-weight: bold;*/
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+#parrafoAdicional{
+    text-align: center;
+}
+
+
+::placeholder{
+    color: #131F39;
+}
+#txtboxCadena{
+    background: #D9E1F2;
+    color: #131F39;
+    
+    border: 0;
+    outline: none;
+    font-size: 20px;
+
+    padding-top: 20%;
+    padding-left: 5px;
+}
+
+#parrafoAyuda{
+    position: absolute;
+    bottom: 65px;
+}
+
+
+.boton{
+    border-radius: 20px;
+    /*padding: 15px 32px;*/
+    width: 200px;
+    height: 55px;
+    font-size: 25px;
+    
+    
+}
+
+#btnEncriptar{
+    background: #131F39;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+
+}
+
+
+#btnDesencriptar{
+    background: #D6DCE4;
+    color: #131F39;
+    position: absolute;
+    left: 250px;
+    bottom: 15px;
+
+
+}
+
+
+
+
+
+
